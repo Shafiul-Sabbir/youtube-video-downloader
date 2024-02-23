@@ -1,0 +1,46 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+#form{
+    text-align: center;
+    background-color: aqua;
+    border: 5px solid rgb(114, 241, 45);
+    border-radius: 10px;
+    width: fit-content;
+    padding: 20px;  
+}
+h1{
+    color: brown;
+}
+label{
+    color: brown;
+    font-size: 20px;
+    font-weight: 500;
+}
+input{
+    height: 25px;
+    border-radius: 5px;
+    background-color: rgb(249, 242, 242);
+    padding-left: 5px;
+    transition: box-shadow 0.3s ease;
+}
+input:hover{
+    box-shadow: 0 0 10px rgba(23, 21, 21, 0.3);
+}
+#submit_button{
+    width: 100px;
+    height: 30px;
+    color: rgb(87, 37, 238);
+    font-size: medium;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease; /* Add transition for box-shadow */
+}
+#submit_button:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a shadow effect on hover */
+    /* Add any additional styles for the submit button when hovered */
+}
